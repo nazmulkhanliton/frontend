@@ -1,0 +1,10 @@
+.table2{
+    background-color: aqua;
+    border: 1px;
+}
+body{
+    background-color: beige;
+}
+.table2, th, td{
+    border: 1px solid black;
+}
