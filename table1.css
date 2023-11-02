@@ -5,6 +5,34 @@
 body{
     background-color: beige;
 }
-.table2, th, td{
-    border: 1px solid black;
+.table2, .table3, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+table{
+    margin-right: 30px;
+}
+.table4{
+    border-collapse: collapse;
+    tr:nth-child(even){
+        background: #CCC;
+    }
+    tr:nth-child(odd){
+        background: #FFF;
+    }
+}
+table#alter tr:nth-child(even){
+    background: #CCC;
+}
+table#alter tr:nth-child(odd){
+    background: #FFF;
+}
+table#alter th{
+    background: lightgreen;
 }
